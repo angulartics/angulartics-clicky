@@ -1,6 +1,7 @@
 {
   "name": "angulartics-clicky",
-  "main": "lib/angulartics-clicky.js",
+  "main": "dist/angulartics-clicky.min.js",
+  "version" : "1.0.0",
   "dependencies": {
     "angulartics": "~1.0.0"
   },

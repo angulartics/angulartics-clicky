@@ -9,7 +9,7 @@
     "angulartics"
   ],
   "author": "Corinna Cohn <corinna000@gmail.com> (https://github.com/corinna000)",
-  "main": "lib/angulartics-clicky.js",
+  "main": "dist/angulartics-clicky.min.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/angulartics/angulartics-clicky"
