@@ -1,0 +1,32 @@
+{
+  "name": "angulartics-clicky",
+  "version": "1.0.0",
+  "description": "Clicky plugin for Angulartics",
+  "keywords": [
+    "clicky",
+    "plugin",
+    "angular",
+    "angulartics"
+  ],
+  "author": "Corinna Cohn <corinna000@gmail.com> (https://github.com/corinna000)",
+  "main": "lib/angulartics-clicky.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/angulartics/angulartics-clicky"
+  },
+  "bugs": {
+    "url": "https://github.com/angulartics/angulartics-clicky/issues"
+  },
+  "scripts": {
+    "clean": "rm -rf dist",
+    "prebuild": "npm run clean",
+    "build": "mkdir -p dist && uglifyjs lib/angulartics-clicky.js --compress --source-map dist/angulartics-clicky.min.js.map --source-map-root .. --source-map-url ../dist/angulartics-clicky.min.js.map -o dist/angulartics-clicky.min.js"
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "angulartics": "~1.0.0"
+  },
+  "devDependencies": {
+    "uglify-js": "^2.4.23"
+  }
+}
